@@ -11,7 +11,7 @@ resources:
 steps:
 - task: Docker@2
   inputs:
-    containerRegistry: 'acr'
-    repository: 'angulardocker'
+    containerRegistry: 'acr2'
+    repository: 'angulardockerhub2'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
